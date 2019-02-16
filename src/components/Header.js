@@ -31,22 +31,24 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className="box">
-        <h1 className="title">Create a Note!</h1>
-        <div className="field">
-          <label className="label">Title</label>
-          <div className="control">
-            <input className="input" placeholder="Title" onChange={this.handleTitleUpdate} value={this.state.title} />
+      <div className="container">
+        <form onSubmit={this.handleSubmit} className="box">
+          <h1 className="title">Create a Note!</h1>
+          <div className="field">
+            <label className="label">Title</label>
+            <div className="control">
+              <input className="input" placeholder="Title" onChange={this.handleTitleUpdate} value={this.state.title} />
+            </div>
           </div>
-        </div>
-        <div className="field">
-          <label className="label">Content</label>
-          <div className="control">
-            <textarea className="textarea" placeholder="Content" onChange={this.handleContentUpdate} value={this.state.content}/>
+          <div className="field">
+            <label className="label">Content</label>
+            <div className="control">
+              <textarea className="textarea" placeholder="Content" onChange={this.handleContentUpdate} value={this.state.content} />
+            </div>
           </div>
-        </div>
-        <button className="button">Save Note</button>
-      </form>
+          <button className="button">Save Note</button>
+        </form>
+      </div>
     )
   }
 }
