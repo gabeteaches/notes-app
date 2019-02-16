@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4086e7c7-161f-4772-aa69-01dd8783bb16/deploy-status)](https://app.netlify.com/sites/gabe-note-app/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
